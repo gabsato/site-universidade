@@ -16,9 +16,7 @@ public class Aluno {
     private String cep;
     private String cidade;
     private String curso;
-    private String senha; // Novo campo para senha
-
-    // Getters e setters
+    private String senha;
 
     public Long getId() {
         return id;

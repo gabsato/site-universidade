@@ -71,7 +71,7 @@ public class AlunoController {
 
     @PostMapping("/cancelar")
     public String cancelarRegistro(SessionStatus sessionStatus) {
-        sessionStatus.setComplete(); // Limpa a sessão atual
+        sessionStatus.setComplete();
         return "redirect:/";
     }
 
